@@ -1,11 +1,10 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: podinfo
+  name: mighty-fine
   namespace: dev
   annotations:
     kubernetes.io/ingress.class: traefik
-    traefik.frontend.rule.type: PathPrefixStrip
     certmanager.k8s.io/acme-challenge-type: http01
     certmanager.k8s.io/issuer: letsencrypt-prod
 spec:
@@ -19,5 +18,5 @@ spec:
       paths:
       - path: /mighty-fine
         backend:
-          serviceName: podinfo
+          serviceName: mighty-fine
           servicePort: 3000
