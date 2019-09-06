@@ -17,7 +17,7 @@ spec:
   - host: training-user-18.training.weave.works
     http:
       paths:
-      - path: /podinfo
+      - path: /mighty-fine
         backend:
           serviceName: podinfo
           servicePort: 3000
