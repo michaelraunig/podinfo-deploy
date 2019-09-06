@@ -1,0 +1,1 @@
+{"jobID":"a3245432-95ef-b7f3-d1fb-9a0e93c66173","spec":{"type":"policy","cause":{"Message":"","User":"Michael Raunig \u003cmic.raunig@gmail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
